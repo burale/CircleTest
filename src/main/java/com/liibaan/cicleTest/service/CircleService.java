@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 public class CircleService {
 
     public double getArea(int radius){
-        return radius * 3;
+        return radius * 4;
     }
 }
