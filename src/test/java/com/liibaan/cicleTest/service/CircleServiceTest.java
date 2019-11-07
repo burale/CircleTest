@@ -16,6 +16,6 @@ class CircleServiceTest {
     @Test
     @DisplayName("Testing if correct circle is created when radius is given")
     public void getAreaTest(){
-        assertEquals(9, circleService.getArea(3));
+        assertEquals(9, circleService.getArea(2));
     }
 }
